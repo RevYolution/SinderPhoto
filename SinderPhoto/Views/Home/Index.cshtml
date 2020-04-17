@@ -1,10 +1,16 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@*TODO: Get highlight images from RJ*@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <div class="gallery">
-        <img src="~/sample_pics/sample1.jpg" height="480" width="720"/>
+    <div id="gallery" class="container">
+        <div class="row">
+            <div class="col" id="gallery_previous">Previous</div>
+            <div class="col" id="gallery_next">Next</div>
+        </div>
+        <div class="row">
+            <img class="col" value=0 src="~/sample_pics/sample1.jpg"/>
+        </div>
     </div>
 </div>

@@ -8,5 +8,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\sample_pics\" />
+    <Folder Include="Views\Album\" />
   </ItemGroup>
 </Project>

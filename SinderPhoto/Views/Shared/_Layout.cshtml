@@ -4,7 +4,7 @@
     /*TODO: Change navbar to side nav*/
     //TODO: Make portfolio drop down
     //TODO: Add pages for each album
-    //TODO: 
+    //TODO: Get Logo from RJ
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
@@ -30,11 +30,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a> 
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Portfolio">Portfolio</a>
-                        </li>
                         <li>
-                            <a class="nav-link text-dark" id="portfolio-base">Portfolio Dropdown</a>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Portfolio
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" asp-controller="Home" asp-action="Portfolio">Portfolio Home</a>
+                                    <a class="dropdown-item" asp-controller="Album" asp-action="Landscapes">Landscapes</a>
+                                    <a class="dropdown-item" asp-controller="Album" asp-action="RealEstate">Real Estate</a>
+                                    <a class="dropdown-item" asp-controller="Album" asp-action="Portraits">Portraits</a>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
