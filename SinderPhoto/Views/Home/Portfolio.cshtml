@@ -8,3 +8,26 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>Pictures from Flickr or provided by RJ.</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <a asp-controller="Album" asp-action="Landscapes">
+                <img class="d-block w-100" src="~/sample_pics/sample3.jpg" alt="Landscape Link">
+            </a>
+        </div>
+        <div class="col">
+            <a asp-controller="Album" asp-action="RealEstate">
+                <img class="d-block w-100" src="~/sample_pics/sample2.jpg" alt="Real Estate Link">
+            </a>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a asp-controller="Album" asp-action="Portraits">
+                <img class="d-block w-100" src="~/sample_pics/sample1.jpg" alt="Portrait Link">
+            </a>
+        </div>
+    </div>
+</div>
