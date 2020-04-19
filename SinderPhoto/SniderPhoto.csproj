@@ -6,6 +6,10 @@
 
 
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'SinderPhoto' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>https://localhost:5001;http://localhost:5000</ApplicationURL>
+  </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\sample_pics\" />
     <Folder Include="Views\Album\" />
