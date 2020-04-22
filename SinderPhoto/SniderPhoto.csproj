@@ -13,5 +13,8 @@
   <ItemGroup>
     <Folder Include="wwwroot\sample_pics\" />
     <Folder Include="Views\Album\" />
+    <Folder Include="wwwroot\portfolio_pics\" />
+    <Folder Include="wwwroot\landscape_pics\" />
+    <Folder Include="wwwroot\real_estate_pics\" />
   </ItemGroup>
 </Project>
