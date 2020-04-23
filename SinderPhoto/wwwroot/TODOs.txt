@@ -1,0 +1,8 @@
+﻿- Add in SCSS
+- Space out images
+- Ensure portfolio home page is clean
+- Alignment of Portfolio Dropdown
+- Spacing of pages within app
+- Get sample pics for each album
+- Make light box to highlight pics
+- Make carosel light box that allows user to select picture and scroll through
